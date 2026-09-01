@@ -24,13 +24,13 @@ namespace Assignment
             #endregion
 
             #region Question2
-            int pages =100;
+            int pages =300;
             double pagesDouble = pages;
             Console.WriteLine(pagesDouble);
             #endregion
 
             #region Question3
-            double price = 30.99;
+            double price = 49.99;
             int priceInt = (int)price;
             Console.WriteLine(priceInt);
             #endregion
@@ -40,6 +40,25 @@ namespace Assignment
             int pagesNumber = Convert.ToInt32(pagesText);
 
             Console.WriteLine(pagesNumber);
+            #endregion
+
+            #region Question 5
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+
+            Console.WriteLine(year);
+
+            string badText = "abc";
+
+            if (int.TryParse(badText, out int number))
+            {
+                Console.WriteLine(number);
+            }
+            else
+            {
+                Console.WriteLine("Invalid number");
+            }
+
             #endregion
 
         }
