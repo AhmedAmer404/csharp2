@@ -96,6 +96,17 @@ namespace Assignment
             }
             #endregion
 
+            #region Question 9
+            int pages9 = 464;
+            bool isAvailable = true;
+
+            if (pages9 > 300 && isAvailable == true)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+            #endregion
+
+
         }
     }
 }
