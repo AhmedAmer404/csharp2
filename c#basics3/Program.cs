@@ -70,6 +70,18 @@ namespace Assignment
             Console.WriteLine(pagesString);
             Console.WriteLine(pagesString.GetType());
             #endregion
+            
+            #region Question 7
+            int copies = 100;
+
+            object boxedCopies = copies;
+
+            int unboxedCopies = (int)boxedCopies;
+
+            Console.WriteLine(boxedCopies);
+            Console.WriteLine(unboxedCopies);
+            #endregion
+
 
         }
     }
