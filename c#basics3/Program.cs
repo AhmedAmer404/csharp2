@@ -27,7 +27,12 @@ namespace Assignment
             int pages =100;
             double pagesDouble = pages;
             Console.WriteLine(pagesDouble);
+            #endregion
 
+            #region Question3
+            double price = 30.99;
+            int priceInt = (int)price;
+            Console.WriteLine(priceInt);
             #endregion
 
         }
