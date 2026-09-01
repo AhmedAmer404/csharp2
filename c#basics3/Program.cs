@@ -35,6 +35,13 @@ namespace Assignment
             Console.WriteLine(priceInt);
             #endregion
 
+            #region Question 4
+            string pagesText = "464";
+            int pagesNumber = Convert.ToInt32(pagesText);
+
+            Console.WriteLine(pagesNumber);
+            #endregion
+
         }
     }
 }
