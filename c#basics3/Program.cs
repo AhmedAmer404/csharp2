@@ -82,6 +82,19 @@ namespace Assignment
             Console.WriteLine(unboxedCopies);
             #endregion
 
+            #region Question 8
+
+            int pages8 = 464;
+
+            if (pages8 > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
+            #endregion
 
         }
     }
