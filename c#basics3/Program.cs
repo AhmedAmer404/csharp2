@@ -60,6 +60,16 @@ namespace Assignment
             }
 
             #endregion
+            
+            #region Question 6
+            
+            int pages67 = 464;
+
+            string pagesString = pages67.ToString();
+
+            Console.WriteLine(pagesString);
+            Console.WriteLine(pagesString.GetType());
+            #endregion
 
         }
     }
