@@ -22,6 +22,14 @@ namespace Assignment
                 Console.WriteLine("done");
             }
             #endregion
+
+            #region Question2
+            int pages =100;
+            double pagesDouble = pages;
+            Console.WriteLine(pagesDouble);
+
+            #endregion
+
         }
     }
 }
